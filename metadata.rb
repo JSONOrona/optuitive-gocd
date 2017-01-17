@@ -1,15 +1,9 @@
 name 'optuitive-gocd'
-maintainer 'The Authors'
-maintainer_email 'you@example.com'
+maintainer 'Jason V. Orona'
+maintainer_email 'jason.orona@theaiteam.com'
 license 'all_rights'
 description 'Installs/Configures optuitive-gocd'
 long_description 'Installs/Configures optuitive-gocd'
 version '0.1.0'
 
-# If you upload to Supermarket you should set this so your cookbook
-# gets a `View Issues` link
-# issues_url 'https://github.com/<insert_org_here>/optuitive-gocd/issues' if respond_to?(:issues_url)
-
-# If you upload to Supermarket you should set this so your cookbook
-# gets a `View Source` link
-# source_url 'https://github.com/<insert_org_here>/optuitive-gocd' if respond_to?(:source_url)
+depends 'gocd', '~> 1.3.2'
